@@ -1,10 +1,4 @@
 
-<!-- <h1 align="center">Github Explorer</h1> -->
-<div align="center"><img align="center" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cct.ie%2F&psig=AOvVaw2IZLT3wwPn7A0DVBofbmCY&ust=1619528464113000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNC8mun7m_ACFQAAAAAdAAAAABAD" /></div>
-<br />
-<br />
-
-
 <h2 align="center">A React Native app developed for study purposes in CCT - Mobile Development course by</h2>
 <a href="https://github.com/diegoloza94/" >Diego Lozano Elizonda</a>
 <br />
