@@ -1,30 +1,15 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
+// React Native File Viewer Example to View Files in Native File Viewer
+// https://aboutreact.com/react-native-file-viewer/
 
+// Import React
 import React from 'react';
-import type {Node} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+// Import core components
+import {StyleSheet, View, Text, TouchableOpacity, Platform} from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+// Import File Viewer to View Files in Native File Viewer
+import FileViewer from 'react-native-file-viewer';
+// Import DocumentPicker to pick file to view
+import DocumentPicker from 'react-native-document-picker';
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
