@@ -54,6 +54,59 @@ const App = () => {
       }
     }
   };
+  return (
+    <View style={styles.mainBody}>
+      <View style={{alignItems: 'center'}}>
+        <Text
+          style={{
+            fontSize: 30,
+            textAlign: 'center',
+            color: 'blue'
+          }}>
+          React Native File System
+        </Text>
+        <Text
+          style={{
+            fontSize: 25,
+            marginTop: 10,
+            textAlign: 'center',
+          }}>
+        Diego Lozano
+        </Text>
+        <Text
+          style={{
+            fontSize: 25,
+            marginTop: 10,
+            textAlign: 'center',
+          }}>
+        Jose Roberto da Silva Dure
+        </Text>
+         <Text
+          style={{
+            fontSize: 25,
+            marginTop: 10,
+            textAlign: 'center',
+          }}>
+        Jessica Sanches Fuentes
+        </Text>
+         <Text
+          style={{
+            fontSize: 25,
+            marginTop: 10,
+            textAlign: 'center',
+          }}>
+          Marcela Costa
+        </Text>
+      </View>
+      <TouchableOpacity
+        style={styles.buttonStyle}
+        activeOpacity={0.5}
+        onPress={selectOneFile}>
+        <Text style={styles.buttonTextStyle}>Select File to View</Text>
+      </TouchableOpacity>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   mainBody: {
